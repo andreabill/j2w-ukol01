@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 18px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    clear: both;
+}
+
+h3 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.hlavicka {
+    background-image: url(prvni_obrazek.jpg);
+    padding: 50px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(39, 11, 3, 0.918);
+}
+
+.menu a {
+    color: lightgrey;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.oblicej {
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+    margin: 30px 20px 10px 0;
+    border: 2px solid rgba(4, 9, 77, 0.904);
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: grey;
+}
+
+
+.kavarny img {
+    border: 2px solid rgba(4, 9, 77, 0.904);
+    width: 49%;
+}
+
+.kavarnaLvov {
+    border-radius: 0 15px 15px 15px;
+}
+
+.kavarnaNJ {
+    border-radius: 15px 15px 0 15px;
+}
+
+div {
+    text-align: center;
+}
+
+.kavarna {
+    border: 2px solid rgba(39, 11, 3, 0.918);
+    width: 50%;
+    border-radius: 15px;
+}    
+
+.ja {
+    width: 20%;
+    float: right;
+    border: 2px solid rgba(39, 11, 3, 0.918);
+    margin-left: 20px;
+    border-radius: 15px 0 15px 15px;
+}
+    
+.omne,
+.cestovani,
+.kavarny {
+    color: rgba(4, 9, 77, 0.904);
+    background-color: rgba(13, 27, 224, 0.479);
+}
+
+.brno,
+.sportovani,
+.pratele {
+    color: rgba(39, 11, 3, 0.918);
+    background-color: rgba(85, 32, 16, 0.514);
+}
+
+.paticka {
+    background-color: rgba(39, 11, 3, 0.918);
+    color: lightgray;
+    text-align: center;
+    padding: 5px 15%;
+}  
+
+section {
+    padding: 30px 15%;
+    overflow: auto;
+}
+
+.kurziva {
+    font-style: italic;
+}
+
+.bezky,
+.lysa {
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(39, 11, 3, 0.918);
+    border-radius: 15px;
+}
+
+.noc {
+    border: 2px solid rgba(4, 9, 77, 0.904);
+    width: 32%;
+    border-radius: 15px;
+ } /*použila jsi špatnou závorku (mělas tam kulatou místo sevřené) a to Ti dělá ve výsledku problém s následující třídou .socha*/
+
+.socha {
+    border: 2px solid rgba(4, 9, 77, 0.904);
+    width: 48%;
+    border-radius: 15px;
+}
